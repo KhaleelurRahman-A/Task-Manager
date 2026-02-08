@@ -1,0 +1,141 @@
+.task-container {
+  display: flex;
+  min-height: 100vh;
+  background: #f8f9fa;
+  flex-wrap: wrap;
+}
+.task{
+  font-size: 1.8rem;
+}
+.tasks-sidebar{
+    display: block;
+  font-size: 2rem;
+  padding-bottom: 3vh;
+}
+.sidebar-line{
+  padding-bottom: 5vh;
+  border-bottom: 2px solid #e9ecef ;
+}
+.app-title {
+  color: #6c757d;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.tasks-content h1{
+  font-size: 2.5rem;
+}
+.tasks-content p{
+  color: #6c757d;
+  font-size: 1.4rem;
+  margin: 1.5vh 0vh 3vh 0vh;
+}
+.tasks-content {
+  flex: 1;
+  padding: 2% 3.3%;
+}
+.tasks-content h1{
+  border-top:2px solid #e9ecef;
+  padding-top: 3vh;
+}
+.search-container {
+  margin-bottom: 20px;
+}
+.search-container input {
+  width: 100%;
+  padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #bec0c2;
+    font-size: 1.5rem;
+}
+.search-container input:focus {
+  outline: none;
+}
+.filter-tab {
+  padding: 2vh 2vw 2vh 1vw;
+  border-radius: 15px;
+  border: 1px solid #bec0c2;
+  font-size: 1.4rem;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  background-color: #ffffff;
+}
+.filter-tab:hover {
+  background:  blueviolet;
+  color: white;
+}
+.filter-tab .count {
+  font-size: 1.3rem;
+  padding: 6px;
+  margin-left: 15px;
+}
+.filter-tab:hover .count {
+  background: #bec0c2;
+  border-radius: 45%;
+  padding: 6px 10px;
+}
+ table {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #bec0c2;
+  border-radius: 20px;
+}
+thead {
+  text-align: left;
+  color:  #6c757d;
+}
+th, td {
+  padding: 20px;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #bec0c2;
+}
+td {
+ color: black;
+}
+.table-row{
+  font-weight: 600;
+}
+.table-date{
+  color:  #6c757d;
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+input[type="checkbox"]:checked {
+  accent-color:#49ff95;
+}
+.edit-button , .delete-button{
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  margin-right: 25%;
+  cursor: pointer;
+}
+.edit-button , .delete-button i{
+ font-size: 1.8rem;
+}
+.delete-button{
+  color: red;
+}
+.High,.Medium,.Low{
+ color: white; 
+ padding: 6.5% 12%;
+ border-radius: 20px;
+ /* background-color: #c82333; */
+}
+.High{
+  background-color: #c82333;
+}
+.Medium{
+  background-color:blueviolet;
+}
+.Low{
+  background-color: #28ce6d;
+} 
+.completed .table-row{
+  text-decoration: line-through;
+  color:#a6a6a7 ;
+}

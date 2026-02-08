@@ -1,0 +1,58 @@
+.edit-container {
+   display: flex; 
+   justify-content: center; 
+   background-color: #f8f9fa;
+   padding: 7%;
+  min-height: 100vh;
+  align-items: center;
+}
+.edit-form {
+  padding: 3%;
+  width: 50%;
+  background-color: white;
+}
+.edit-form h1 {
+  margin-bottom: 2vh;
+  font-size: 2rem;
+}
+.edit-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  font-weight: 600;
+}
+.edit-row input,
+.edit-row select {
+  padding: 18px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.edit-row textarea{
+   padding: 25px;
+  border-radius: 8px;
+   font-size: 1rem;
+}
+.edit-row label{
+  margin-top: 3vh;
+}
+.edit-row input:focus,
+.edit-row textarea:focus,
+.edit-row select:focus{
+ outline: 3px solid blueviolet;
+}
+.Update-button{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4vh;
+}
+.edit-btn button{
+  padding: 18px;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 18vw;
+}
+.edit-btn button:hover{
+  background-color: blueviolet;
+  font-weight: 750;
+  color: white;
+}
